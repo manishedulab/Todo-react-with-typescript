@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #fff;
+    background: #333;
+}
+.TodoEvent {
+    max-width: 728px;
+    margin: 4rem auto;
+}
+.TodoEvent > h1 {
+    text-align: center;
+    margin: 1rem 0;
+}
+.Card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #444;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #333333;
+}
+.Card--text h1 {
+    color: #FF9900;
+}
+.Card--button button {
+    background: #F5F6F7;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.Card--button__delete {
+    border: 1px solid #CA0000;
+    color: #CA0000;
+}
+.Card--button__done {
+    border: 1px solid #00AA69;
+    color: #00AA69;
+    margin-right: 1rem;
+}
+.Todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #444;
+    margin-bottom: 1rem;
+    width: 50%;
+    margin-left: 30%;
+    text-align: center;
+   
+}
+.Todo > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Todo input {
+    background: #F5F6F7;
+    padding: 0.5rem 1rem;
+    border: 1px solid #FF9900;
+    border-radius: 10px;
+    display: block;
+    margin: 0.3rem 1rem 0 0;
+}
+.submit {
+    background: #FF9900;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    width: 20%;
+    margin-top: 1.5rem;
+}
+button,.cross{
+  cursor: pointer;
+}
+
+
+.submit:hover {
+  background-color: #b87006;
+  color: #fefefe;
+  cursor: pointer;
+}
+.line-through {
+    text-decoration: line-through;
+    color: #777 !important;
+}
+.hide-button {
+    display: none;
+}
+p, div {
+  font-family: Lato;
+}
+.wrapper {
+  height: 97vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:  #333;
+}
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  max-width: 80%;
+  min-width: 100px;
+  min-height: 400px;
+  padding: 20px 40px;
+  border-radius: 6px;
+  box-shadow: 0px 8px 36px #222;
+  background-color: #FEFEFE;
+}
+.form-wrapper > h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+  margin-top: 0.25em;
+  color: #222;
+}
+.error {
+  color:red; 
+}
+/* form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}   */
+label {
+  margin-bottom: 0.5em;
+  color: #444;
+  font-weight: lighter;
+}
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #D6D1D5;
+}
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #bbb;
+}
+.button {
+  min-width: 100%;
+  cursor: pointer;
+  margin-right: 0.25em;
+  margin-top: 0.5em;
+  padding:  0.938em;
+  border: none;
+  border-radius: 4px;
+  background-color:  #FF9900;
+  color: #FEFEFE;
+}
+.button:hover {
+  background-color:  #333;
+  color: #FEFEFE;
+}
+.button1{
+  min-width:10%;
+  cursor: pointer;
+  margin-right: 0.25em;
+  margin-top: 0.5em;
+  margin-left: 0.50em;
+  padding:  0.938em;
+  border: none;
+  border-radius: 4px;
+  background-color:  #FF9900;
+  color: #FEFEFE;
+}
+.fullname,
+.username,
+.email,
+.password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.submit {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: 30%;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+  
+}
+tr:nth-child(even){background-color: #db0e0e}
+th {
+  background-color: #FF9900;
+  color: rgb(252, 252, 252);
+}
